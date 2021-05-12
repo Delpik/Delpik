@@ -1,27 +1,129 @@
 {
-  "items": [
-    {
-      "bubble": {
-        "text": "Держите! Zaycev.net."
-      }
-    },
-    {
-      "card": {
-        "cells": [
-          {
-            "content": {
-              "hash": "c0e60cbbc8603f514672a48cc9f4f04d",
-              "size": {
-                "aspect_ratio": 1.0,
-                "width": "resizable"
-              },
-              "url": "https://www.dmosk.ru/img/contact/qr_code_contact.jpg"
+    "card": {
+        "type": "grid_card",
+        "items": [
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "СОБЕСЕДНИК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая высота Эвереста?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая высота Эвереста?"
+                    }
+                ]
             },
-            "type": "image_cell_view"
-          }
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "КОШЕЛЕК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Сколько у меня денег?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Сколько у меня денег?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПОГОДА",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая погода вечером в Москве?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая погода вечером в Москве?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПЕРЕВОД",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Отправь маме 500 рублей",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Отправь маме 500 рублей"
+                    }
+                ]
+            }
         ],
-        "type": "list_card"
-      }
+        "columns": 2,
+        "item_width": "small"
     }
-  ]
 }
