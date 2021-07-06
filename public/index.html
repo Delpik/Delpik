@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+      <div class="menu-item" id="kipy" onclick="vote()"><div id="text">Кипу</div></div>
+      <div class="menu-item" id="vamp" onclick="vote()"><div id="text">Вампу</div></div>
+      <div class="menu-item" id="pick" onclick="vote()"><div id="text">Пиктограмма на пергаменете</div></div>
+      <div class="menu-item" id="klin" onclick="vote()"><div id="text">Клинописная табличка</div></div>
+      <div class="menu-item" id="papi" onclick="vote()"><div id="text">Папирусный <br> свиток <br> с иероглифами</div></div>
+      <div class="menu-item" id="ston" onclick="vote()"><div id="text">Камень<br>  с моавитским <br> письмом</div></div>
+ 
+
+  <script>
+    async function vote() {
+    
+    url = '/vote';
+    let response = await fetch(url);
+
+    if (response.ok) { 
+    //let json = await response.json();
+      
+    }
+    else{
+      
+    }
+    
+    }
+  </script>
+
+</body>
+
+</html>
