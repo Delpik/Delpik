@@ -1,0 +1,43 @@
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu-item {
+    background-color: #847462;
+    width: 276px;
+    height: 1000px;
+    display: inline-grid;
+    margin-left: -.36em;
+    box-shadow: inset 40px 0px 29px -30px #3c393c
+    
+  }
+  div#kipy{
+    background-color: #bd2738;
+    box-shadow: none;
+  }
+  div#vamp{
+    background-color: #ca657c;
+  }
+  div#pick{
+    background-color: #6d8462;
+  }
+  div#klin{
+    background-color: #135f3c;
+  }
+  div#papi{
+    background-color: #6d8462;
+  }
+  div#ston{
+    background-color: #686284;
+  }
+  div#text{
+    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 800px;
+    padding-left: 20px;
+    padding-right: 30px;
+  };
+  
+  
